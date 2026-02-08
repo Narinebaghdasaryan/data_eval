@@ -9,3 +9,6 @@ def read_file_with_pandas(file_name):
 def avg_arr(arr):
     return arr.mean()
 
+
+def max_min_arr(arr):
+    return arr.max(), arr.min()
