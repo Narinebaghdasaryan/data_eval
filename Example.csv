@@ -1,0 +1,11 @@
+ID;Name;Age;Gender;Class;Math_Score;Python_Score;School
+1;Anna;16;F;11;88;77;School1
+2;David;17;M;11;92;72;School2
+3;Mary;15;F;10;76;65;School2
+4;John;17;M;12;;;School3
+5;Lily;16;F;11;90;79;School3
+6;Mark;17;M;12;70;90;School1
+7;Syuzan;18;F;12;;58;School2
+8;Tom;16;M;10;68;80;School2
+9;Emma;17;F;11;80;;School2
+10;Alex;17;M;11;89;77;School1

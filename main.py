@@ -1,20 +1,16 @@
-# while True:
-#     text = input("some text")
-#     if text == "break":
-#         break
-#
-
 import pandas as pd
 import numpy as np
 
 from utils.generic import read_file_with_pandas, max_min_arr, avg_arr
 
 
-df=pd.read_csv("tourist - tourist.csv")
+while True:
+    text = input("some file name")
+    if text == "break":
+        break
 
-print(read_file_with_pandas("tourist - tourist.csv", "Days"))
 
-
-
-print(max_min_arr(df["Days"]))
-print(avg_arr(df["Days"]))
+    col=(read_file_with_pandas(text, input()))
+    if col is not None:
+        print(max_min_arr(col))
+        print(avg_arr(col))
